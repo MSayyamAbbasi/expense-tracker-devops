@@ -17,7 +17,10 @@ app.use(helmet());
 // CORS - allow the configured frontend origin with credentials
 app.use(
   cors({
-    origin: env.CLIENT_URL,
+    origin: [
+      "http://localhost",
+      "http://localhost:5173",
+    ],
     credentials: true,
   })
 );

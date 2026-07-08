@@ -6,7 +6,7 @@ Track income and expenses, categorize transactions, search and filter your histo
 
 ---
 
-## ✨ Features
+## Features
 
 - **Authentication** — Register, login, logout, JWT-based sessions, protected routes
 - **Dashboard** — Total income, total expense, current balance, 6-month trend chart, category breakdown chart, recent transactions
@@ -18,7 +18,7 @@ Track income and expenses, categorize transactions, search and filter your histo
 
 ---
 
-## 🧰 Tech Stack
+##  Tech Stack
 
 **Frontend:** React 19, Vite, Tailwind CSS, React Router, Axios, React Hook Form, Context API, Recharts
 **Backend:** Node.js, Express.js, MongoDB, Mongoose, JWT, bcryptjs, express-validator, Helmet, CORS, Morgan, dotenv
@@ -28,7 +28,7 @@ Track income and expenses, categorize transactions, search and filter your histo
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 expense-tracker/
