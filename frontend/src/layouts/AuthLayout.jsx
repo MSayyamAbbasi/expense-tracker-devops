@@ -1,10 +1,10 @@
-import { Outlet } from 'react-router-dom';
-import { Wallet, TrendingUp, PieChart, ShieldCheck } from 'lucide-react';
+import { Outlet } from "react-router-dom";
+import { Wallet, TrendingUp, PieChart, ShieldCheck } from "lucide-react";
 
 const HIGHLIGHTS = [
-  { icon: TrendingUp, text: 'See income vs. expense trends at a glance' },
-  { icon: PieChart, text: 'Understand exactly where your money goes' },
-  { icon: ShieldCheck, text: 'Your data is private and secured with JWT auth' },
+  { icon: TrendingUp, text: "See income vs. expense trends at a glance" },
+  { icon: PieChart, text: "Understand exactly where your money goes" },
+  { icon: ShieldCheck, text: "Your data is private and secured with JWT auth" },
 ];
 
 /**
@@ -26,11 +26,12 @@ const AuthLayout = () => {
         </div>
 
         <div className="relative">
-          <h2 className="font-display text-3xl font-bold leading-tight">
+          <h2 className="font-display text-3xl font-bold leading-tight text-white">
             Every rupee, dollar, and dirham — accounted for.
           </h2>
           <p className="mt-3 max-w-sm text-sm text-slate-300">
-            A clear, simple way to track income and expenses and understand your monthly habits.
+            A clear, simple way to track income and expenses and understand your
+            monthly habits.
           </p>
 
           <div className="mt-8 space-y-4">
@@ -45,7 +46,9 @@ const AuthLayout = () => {
           </div>
         </div>
 
-        <p className="relative text-xs text-slate-500">© {new Date().getFullYear()} Pocketwise</p>
+        <p className="relative text-xs text-slate-500">
+          © {new Date().getFullYear()} Pocketwise
+        </p>
       </div>
 
       <div className="flex flex-1 items-center justify-center px-4 py-10 sm:px-6">
@@ -54,7 +57,9 @@ const AuthLayout = () => {
             <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-brand-600 text-white">
               <Wallet className="h-5 w-5" />
             </div>
-            <span className="font-display text-lg font-bold text-ink-900">Pocketwise</span>
+            <span className="font-display text-lg font-bold text-ink-900">
+              Pocketwise
+            </span>
           </div>
           <Outlet />
         </div>
